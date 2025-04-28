@@ -6,17 +6,18 @@
 /*   By: ggiboury <ggiboury@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 18:26:29 by ggiboury          #+#    #+#             */
-/*   Updated: 2025/04/28 18:48:22 by ggiboury         ###   ########.fr       */
+/*   Updated: 2025/04/28 23:53:58 by ggiboury         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string>
 #include <iostream>
 
-// #include <vulkan/vulkan.h>
-
-#define GLFW_INCLUDE_VULKAN
+#include <vulkan/vulkan.h>
 #include <GLFW/glfw3.h>
+
+
+// #define GLFW_INCLUDE_VULKAN
 
 #include <iostream>
 #include <stdexcept>
