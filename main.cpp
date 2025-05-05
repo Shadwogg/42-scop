@@ -6,7 +6,7 @@
 /*   By: ggiboury <ggiboury@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/28 18:26:29 by ggiboury          #+#    #+#             */
-/*   Updated: 2025/04/28 23:53:58 by ggiboury         ###   ########.fr       */
+/*   Updated: 2025/05/05 10:30:13 by ggiboury         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 #include <GLFW/glfw3.h>
 
 
-// #define GLFW_INCLUDE_VULKAN
+#define GLFW_INCLUDE_VULKAN
 
 #include <iostream>
 #include <stdexcept>
@@ -48,6 +48,7 @@ private:
 int main() {
     HelloTriangleApplication app;
 	GLFWwindow* window;
+    glfwInit();
 	window = glfwCreateWindow(800, 600, "Vulkan", nullptr, nullptr);
     try {
         app.run();
